@@ -73,7 +73,7 @@ header > div {
 
 h1 {
         text-align: center;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
 .buttonplans {
@@ -107,46 +107,73 @@ h2 {
 
 h3 {
     color: #ED1C24;
+    font-weight: bolder;
+    text-align: center;
 }
+
 #section3 {
     height: 600px;
-    text-align: center;
+    text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction:column;
+    
 
 }
 
 .buttoncreate {
-    text-decoration-color: white;
-    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
-    width: 120px;
-    height: 45px;
     background-color: black;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    width: 200px;
+    height: 45px;
+    margin: 3rem;
 }
 
 .zero-configuration {
     width: 2rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: left;
 }
 
 .team-management {
     width: 2rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: left;
 }
 
 .familiar-features {
     width: 2rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:left;
 }
 
 .audit {
     width: 2rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: left;
 }
 
+table, th, td {
+    border: 8px solid red;
+    border-collapse: collapse;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
